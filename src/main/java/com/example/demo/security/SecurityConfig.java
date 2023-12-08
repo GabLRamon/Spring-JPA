@@ -20,25 +20,25 @@ public class SecurityConfig {
 
         UserDetails gabriel = User.builder()
                 .username("Gabriel")
-                .password("{noop}142536")
+                .password("{noop}123456")
                 .roles("EMPLOYEE, MANAGER, ADMIN")
                 .build();
 
         UserDetails marlon = User.builder()
                 .username("marlon")
-                .password("{noop}142536")
+                .password("{noop}123456")
                 .roles("EMPLOYEE, MANAGER")
                 .build();
 
         UserDetails marilde = User.builder()
                 .username("marilde")
-                .password("{noop}142536")
+                .password("{noop}123456")
                 .roles("EMPLOYEE", "MANAGER")
                 .build();
 
         UserDetails flavia = User.builder()
                 .username("flavia")
-                .password("{noop}142536")
+                .password("{noop}123456")
                 .roles("EMPLOYEE, MANAGER")
                 .build();
 
